@@ -1,19 +1,12 @@
-# FastAPI
+<p align="center"><img src="logo.png" alt="fastapi" width="120"></p>
 
-<p align="center"><img src="logo.png" alt="FastAPI" width="120"></p>
-
-
-[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
-[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/fastapi/actions)
-[![License](https://img.shields.io/github/license/stackblaze-templates/fastapi)](LICENSE)
+# FastAPI [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/fastapi/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/fastapi)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 A modern, high-performance Python web framework for building APIs. FastAPI is based on standard Python type hints, with automatic OpenAPI documentation.
 
 > **Credits**: Built on [FastAPI](https://fastapi.tiangolo.com) by [Sebastián Ramírez](https://github.com/tiangolo). All trademarks belong to their respective owners.
 
 ## Deploy on StackBlaze
-
-[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
