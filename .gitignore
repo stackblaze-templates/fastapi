@@ -2,3 +2,12 @@ __pycache__
 .venv
 
 .idea
+
+# Environment / secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
