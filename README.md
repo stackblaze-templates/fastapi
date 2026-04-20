@@ -18,6 +18,14 @@ docker compose up
 
 See the project files for configuration details.
 
+## Production Security Notes
+
+Before deploying to production, review these defaults:
+
+- **CORS**: FastAPI does not enable CORS by default. If your API must accept cross-origin requests, explicitly configure `CORSMiddleware` with a restricted list of allowed origins — **never use `allow_origins=["*"]` in production**.
+- **Debug mode**: Uvicorn's `--reload` flag (development only) must **not** be used in production. The provided `run.sh` does not enable it.
+- **Environment variables**: Store all secrets and credentials in environment variables or a secrets manager — never commit them to the repository. Add any `.env` file to `.gitignore` (already done in this template).
+
 ---
 
 ### Maintained by [StackBlaze](https://stackblaze.com)
